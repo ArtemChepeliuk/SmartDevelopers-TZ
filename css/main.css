@@ -58,6 +58,7 @@ header {
 .left_column {
   background-color: #ff621f;
   padding: 30px 20px 160px 39px;
+  max-width:  503px;
 }
 
 .right_column {
@@ -112,7 +113,7 @@ header {
 }
 
 .hr {
-  min-width: 289px;
+  min-width: 279px;
   border-bottom: 2px dashed #ffffff;
   margin-top: 14px;
   margin-bottom: 15px;
@@ -175,7 +176,8 @@ header {
 .timer_block {
   background-color: #2b2e35;
   color: #ffffff;
-  padding: 16px 27px;
+  padding: 16px;
+  width:  85px;
   text-align: center;
   border-radius: 5px;
   font-family: Circe;
@@ -205,4 +207,38 @@ header {
 .right_column_list ul {
   list-style: none;
   list-style-image: url(..//img/list.png);
+  color: #2b2e35;
+  font-family: "PT Sans";
+  font-size: 24px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.stream_form {
+  color: #2b2e35;
+  font-family: Georgia;
+  font-size: 24px;
+  font-style: italic;
+  margin: 45px auto;
+  max-width: 560px;
+}
+
+.who_button {     
+  max-width: 385px;
+  background-color: #ff621f;
+  color: #ffffff;
+  font-family: "PT Sans";
+  font-size: 36px;
+  font-weight: 700;
+  margin: 0 auto;
+}
+
+.who_text {
+  max-width: 906px;
+  margin: 30px auto;
+  color: #2b2e35;
+  font-family: "PT Sans";
+  font-size: 36px;
+  font-weight: 400;
+  border-bottom: 2px dashed #2b2e35;
 }
