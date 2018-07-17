@@ -17,7 +17,7 @@ header {
 }
 
 .present {
-  display: block;
+  display: none;
   color: #18374b;
   font-family: "PT Sans";
   font-size: 27px;
@@ -350,6 +350,9 @@ header {
   .section_three h1,
   .section_one p {
     font-size: 22px;
+  }
+  .present {
+    display: none;
   }
 }
 
