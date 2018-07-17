@@ -24,6 +24,10 @@ header {
   margin-bottom: 10px;
 }
 
+.row_reverce {
+  flex-direction: row-reverse;
+}
+
 .color_brown {
   font-weight: 700;
   text-transform: uppercase;
@@ -40,6 +44,7 @@ header {
   box-shadow: 0px 2px 1px 0px #ff332a;
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 
 .section_one--button span {
@@ -58,7 +63,7 @@ header {
 .left_column {
   background-color: #ff621f;
   padding: 30px 20px 160px 39px;
-  max-width:  503px;
+  max-width: 503px;
 }
 
 .right_column {
@@ -69,7 +74,7 @@ header {
 }
 
 .date {
-  width: 129px;
+  max-width: 129px;
 }
 
 .day {
@@ -177,7 +182,7 @@ header {
   background-color: #2b2e35;
   color: #ffffff;
   padding: 16px;
-  width:  85px;
+  width: 85px;
   text-align: center;
   border-radius: 5px;
   font-family: Circe;
@@ -223,7 +228,7 @@ header {
   max-width: 560px;
 }
 
-.who_button {     
+.who_button {
   max-width: 385px;
   background-color: #ff621f;
   color: #ffffff;
@@ -231,6 +236,7 @@ header {
   font-size: 36px;
   font-weight: 700;
   margin: 0 auto;
+  cursor: pointer;
 }
 
 .who_text {
@@ -241,4 +247,105 @@ header {
   font-size: 36px;
   font-weight: 400;
   border-bottom: 2px dashed #2b2e35;
+  padding-bottom: 30px;
+}
+
+.section_three {
+  background-color: #f8f8f8;
+  margin-top: 40px;
+  padding-top: 20px;
+}
+
+.section_three h1 {
+  max-width: 992px;
+  color: #2b2e35;
+  font-family: "PT Sans";
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  margin: 0 auto 30px;
+}
+
+.section_three p {
+  color: #2b2e35;
+  font-family: "PT Sans";
+  font-size: 24px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.section_four {
+  background-color: #efefef;
+}
+
+.colage img {
+  margin: 30px 0;
+  width: 95%;
+  height: auto;
+}
+
+.section_five--text {
+  text-align: left;
+  margin-bottom: 85px;
+  margin-top: 20px;
+}
+
+.section_five h1 {
+  color: #2b2e35;
+  font-family: "PT Sans";
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.section_five span {
+  color: #2b2e35;
+  font-size: 30px;
+  font-family: "PT Sans - Bold";
+  font-weight: 700;
+}
+
+.section_five--button {
+  color: #ffffff;
+  font-family: "PT Sans";
+  font-size: 48px;
+  font-weight: 700;
+  background-color: #ff621f;
+  border-bottom: 8px solid #ff332a;
+  cursor: pointer;
+}
+
+.section_five--icons a:hover {
+  text-decoration: none;
+}
+
+.section_five--icons img:hover {
+  transform: scale(1.05);
+}
+
+.section_five--icons {
+  padding: 50px 0;
+}
+
+@media screen and (max-width: 425px) {
+  .timer_block {
+    background-color: #2b2e35;
+    color: #ffffff;
+    padding: 10px;
+    width: 65px;
+  }
+  .hr {
+    min-width: 185px;
+  }
+  .day_number,
+  .day_week,
+  .section_three h1,
+  .section_one p {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+ .sek{
+   display: none;
+ }
 }

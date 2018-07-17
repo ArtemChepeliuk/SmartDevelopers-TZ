@@ -7,7 +7,8 @@
   <title>Page Title</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
-
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+    crossorigin="anonymous">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
     crossorigin="anonymous">
 </head>
@@ -30,7 +31,55 @@
       </div>
     </section>
     <section class="section_two">
-      <div class="row d-flex justify-content-center">
+      <div class="row d-flex justify-content-center row_reverce">
+          <div class="col-6-sm right_column">
+              <p class="stream_starts">
+                До старта трансляции осталось…
+              </p>
+              <div class="timer">
+                <div class="row d-flex justify-content-between">
+                  <div class="col-auto">
+                    <div id="d" class="timer_block">0</div>
+                    <div class="timer_text">дней</div>
+                  </div>
+                  <div class="col-auto">
+                    <div id="h" class="timer_block">0</div>
+                    <div class="timer_text">часов</div>
+                  </div>
+                  <div class="col-auto">
+                    <div id="m" class="timer_block">0</div>
+                    <div class="timer_text">минут</div>
+                  </div>
+                  <div class="col-auto sek">
+                    <div id="s" class="timer_block">0</div>
+                    <div class="timer_text">секунд</div>
+                  </div>
+    
+                </div>
+              </div>
+              <div class="right_column__list-tittle">
+                <p>Вот всего лишь малая часть из того, что ты узнаешь на вебинаре:</p>
+              </div>
+              <div class="right_column_list">
+                <ul>
+                  <li>Простая
+                    <strong> 10 шаговая система</strong> для дизайна «Саморазвивающейся Компании» в 2017 году</li>
+                  <li> Как решить проблему людей №1 и масштабироать бизнес в 10 раз</li>
+                  <li> Какие
+                    <strong>4 пункта</strong> плана внедрить за следующие 6 месяцев, чтобы освободить 80% вашего время</li>
+                  <li> 2 простых и легкие для внедрения «фишки», которые радикально поднимут эффективность компании</li>
+                  <li>
+                    <strong>3 фундаментальные причины</strong>, почему Ваш бизнес никогда не масштабируется на свой 100% потенциал прибыли
+                  </li>
+                  <li>
+                    <strong>Вы или Вас:</strong> как перестать быть жертвой подчиненных и начать профессионально управлять людьми</li>
+                  <li>
+                    <strong>3 тактики,</strong> которые превратят кризисную компанию в устойчивую и прибыльную в 2017 году </li>
+                  <li>
+                    <strong>Формула</strong> как построить здоровую и умную компанию на долгие годы, чтобы и внуки вами гордились </li>
+                </ul>
+              </div>
+            </div>
         <div class="col-6-sm left_column">
           <div class="row">
             <div class="col padding_top">
@@ -68,54 +117,7 @@
             </ul>
           </div>
         </div>
-        <div class="col-6-sm right_column">
-          <p class="stream_starts">
-            До старта трансляции осталось…
-          </p>
-          <div class="timer">
-            <div class="row d-flex justify-content-between">
-              <div class="col-auto">
-                <div id="d" class="timer_block">0</div>
-                <div class="timer_text">дней</div>
-              </div>
-              <div class="col-auto">
-                <div id="h" class="timer_block">0</div>
-                <div class="timer_text">часов</div>
-              </div>
-              <div class="col-auto">
-                <div id="m" class="timer_block">0</div>
-                <div class="timer_text">минут</div>
-              </div>
-              <div class="col-auto">
-                <div id="s" class="timer_block">0</div>
-                <div class="timer_text">секунд</div>
-              </div>
-
-            </div>
-          </div>
-          <div class="right_column__list-tittle">
-            <p>Вот всего лишь малая часть из того, что ты узнаешь на вебинаре:</p>
-          </div>
-          <div class="right_column_list">
-            <ul>
-              <li>Простая
-                <strong> 10 шаговая система</strong> для дизайна «Саморазвивающейся Компании» в 2017 году</li>
-              <li> Как решить проблему людей №1 и масштабироать бизнес в 10 раз</li>
-              <li> Какие
-                <strong>4 пункта</strong> плана внедрить за следующие 6 месяцев, чтобы освободить 80% вашего время</li>
-              <li> 2 простых и легкие для внедрения «фишки», которые радикально поднимут эффективность компании</li>
-              <li>
-                <strong>3 фундаментальные причины</strong>, почему Ваш бизнес никогда не масштабируется на свой 100% потенциал прибыли
-                </li>
-              <li>
-                <strong>Вы или Вас:</strong> как перестать быть жертвой подчиненных и начать профессионально управлять людьми</li>
-              <li>
-                <strong>3 тактики,</strong> которые превратят кризисную компанию в устойчивую и прибыльную в 2017 году </li>
-              <li>
-                <strong>Формула</strong> как построить здоровую и умную компанию на долгие годы, чтобы и внуки вами гордились </li>
-            </ul>
-          </div>
-        </div>
+        
       </div>
       <p class="stream_form">
         Формат участия: живое присутствие в онлайн (повтора и записи не будет) всего 500 мест
@@ -127,9 +129,65 @@
         Для существующих предпринимателей с чистым доходом от 150 000 рублей в месяц
       </p>
     </section>
+
   </div>
-
-
+  <section class="section_three">
+    <div class="container">
+      <h1>Наконец-то, раскрыта технология как предпринимателю управлять прибыльным бизнесом (и даже не одним), при этом оставаясь
+        свободным, здоровым и довольным жизнью, без стресса и необходимости жить на работе!</h1>
+      <p>Представьте, как Вы с удовольствием просыпаетесь утром и с самых первых минут дня точно знаете, что нужно делать сегодня,
+        чтобы сделать ваш бизнес еще более прибыльным… </p>
+      <p>За утренним кофе Вы смотрите статистику по продажам и с чувством гордости видите, что по сравнению с прошлым месяцем
+        она выросла значительно, так как Вы внедрили новые системы в продажах и маркетинге… </p>
+      <p>Вы с нетерпением ждете встречи с Вашей командой, чтобы обсудить новый способы давать больше ценности вашим клиентам
+        и мотивировать их возвращаться к вам чаще и чаще. При этом вы знаете, что уже в 4 часа дня будете свободны, чтобы
+        заняться спортом, а потом провести вечер с семьей… А в следующем месяце у Вас запланирован отпуск в теплой стране,
+        о которой вы так давно мечтали… </p>
+      <p> Не так давно вы бы провели этот день (и многие следующие) в стрессе, «тушении пожаров», работая слишком долго и слишком
+        упорно, почти без поддержки, реагируя на проблемы, вместо того, чтобы создавать успех.</p>
+      <p>Вы улыбаетесь, понимая, как далеко вы продвинулись и как много побед впереди… </p>
+      <p> Приветсвую, меня зовут Иван Зимбицкий и в начале карьеры предпринимателя я тоже работал по 12-18 часов в день, как
+        и вы, возможно, сейчас… Однако я общался с многими западными предпринимателями и видел, что они успешнее меня и при
+        этом свободны и наслаждаются жизнью, а их бизнес растет… Чтобы раскрыть их секрет я инвестировал в обучение у наставников
+        из США более $15 000. И мне удалось «взломать» код технологии как создавать «саморазвивающийся» бизнес, который дает
+        деньги и свободу. </p>
+      <p> Сейчас у меня 3 бизнеса.</p>
+      <p> При этом я путешествую по 4 месяца в году, обучаюсь, провожу время с семьей, обучаю команду, провожу мероприятия на
+        100-150 человек, занимаюсь спортом каждый день и интенсивно готовлюсь к прохождению дистанции Ironman 70.3 (это 1,9
+        км плавания, 90 км на велосипеде и 21,1 км – бег).</p>
+      </p>
+    </div>
+  </section>
+  <section class="section_four">
+    <div class="container">
+      <div class="colage">
+        <img src="img/col.png" alt="colage">
+      </div>
+    </div>
+  </section>
+  <section class="section_five">
+    <div class="container">
+      <div class="section_five--text">
+        <h1>И я знаю, что это возможно и для вас…
+        </h1>
+        <span>Приходите на мой вебинар и раскрою вам свою технология в деталях. </span>
+      </div>
+      <div class="section_five--button">
+        Да! Забронировать место сейчас! >>
+      </div>
+      <div class="section_five--icons">
+        <a href="#">
+          <img src="img/vk.png" alt="vk">
+        </a>
+        <a href="#">
+          <img src="img/fb.png" alt="fb">
+        </a>
+        <a href="#">
+          <img src="img/tw.png" alt="tw">
+        </a>
+      </div>
+    </div>
+  </section>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
