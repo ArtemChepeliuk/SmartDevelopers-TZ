@@ -352,7 +352,7 @@ header {
     font-size: 22px;
   }
   .present {
-    display: none;
+    display: block;
   }
 }
 
