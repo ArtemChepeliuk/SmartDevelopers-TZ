@@ -16,6 +16,17 @@ header {
   margin: 0 auto;
 }
 
+.present {
+  display: block;
+  color: #18374b;
+  font-family: "PT Sans";
+  font-size: 27px;
+  font-weight: 400;
+  padding: 15px 0;
+  margin-bottom: 10px;
+  border-bottom: 1px solid black;
+}
+
 .section_one p {
   font-family: Circe;
   font-size: 30px;
@@ -74,7 +85,7 @@ header {
 }
 
 .date {
-  max-width: 129px;
+  width: 129px;
 }
 
 .day {
@@ -328,8 +339,6 @@ header {
 
 @media screen and (max-width: 425px) {
   .timer_block {
-    background-color: #2b2e35;
-    color: #ffffff;
     padding: 10px;
     width: 65px;
   }
@@ -345,7 +354,12 @@ header {
 }
 
 @media screen and (max-width: 375px) {
- .sek{
-   display: none;
- }
+  .timer_block {
+    padding: 1px;
+    width: 42px;
+    font-size: 26px;
+  }
+  .timer_text {
+    font-size: 11px;
+  }
 }
